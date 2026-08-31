@@ -19,4 +19,9 @@ with DAG(
         bash_command="python /opt/airflow/src/scripts/transform.py",
     )
 
-    extract_task >> transform_task
+    load_task = BashOperator(
+        task_id="load",
+        bash_command="python /opt/airflow/src/scripts/load.py",
+    )
+
+    extract_task >> transform_task >> load_task
