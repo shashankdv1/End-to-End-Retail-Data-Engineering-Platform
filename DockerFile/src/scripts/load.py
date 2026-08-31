@@ -14,10 +14,10 @@ from transform import transform_data
 # ============================================================
 
 DB_HOST = "postgres"
-DB_PORT = "5432"
+DB_PORT = ""
 DB_NAME = "sales_db"
-DB_USER = "airflow"
-DB_PASSWORD = "airflow"
+DB_USER = ""
+DB_PASSWORD = ""
 
 
 # ============================================================
