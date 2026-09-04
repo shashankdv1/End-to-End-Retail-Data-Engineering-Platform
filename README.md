@@ -1,4 +1,4 @@
-# Real-Time Sales Data Pipeline
+# Sales Data Pipeline
 
 An ETL data pipeline that extracts product, user-interaction, and sales data from multiple sources, transforms the data, and loads the results into PostgreSQL. The project is designed to run with Docker/Airflow and uses Python, Pandas, PySpark, SQLAlchemy, and PostgreSQL connectivity through Psycopg2.
 
